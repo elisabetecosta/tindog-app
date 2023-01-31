@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #ff4c88;
     color: #fff;
 }
@@ -58,7 +58,7 @@ p {
 
 /* HEADER IMAGE */
 .header-image {
-    width: 22%;
+    width: 20%;
     transform: rotate(25deg);
     position: absolute;
     right: 24%;
@@ -123,4 +123,45 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* CTA SECTION */
+#cta {
+    background-color: #ff4c88;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+#footer {
+    padding: 3% 15% 1%;
+    text-align: center;
+}
+
+.contact {
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    
+    .header-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
