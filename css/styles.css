@@ -173,21 +173,30 @@ p {
     }
     
     .section-heading,
+    .price-text,
     .cta-heading {
         font-size: 2.5rem;
-    }
-
-    .testimonial-text {
-        font-size: 2rem;
     }
 
     #header {
         text-align: center;
     }
-    
+
+    .navbar {
+        padding-bottom: 3rem;
+    }
+
+    .download-button {
+        margin-bottom: 1%;
+    }
+
     .header-image {
         position: static;
         transform: rotate(0);
-        padding-top: 1%;
+        padding-top: 10%;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
     }
 }
