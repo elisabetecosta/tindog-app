@@ -43,6 +43,7 @@ p {
 /* HEADER SECTION */
 #header {
     min-height: 100vh;
+    text-align: left;
 }
 
 #header .container-fluid {
@@ -79,7 +80,7 @@ p {
     max-width: 300px;
     transform: rotate(25deg);
     position: absolute;
-    right: 24%;
+    right: 20%;
 }
 
 /* FEATURES SECTION */
@@ -166,6 +167,10 @@ p {
 
 /* MEDIA QUERIES */
 @media (max-width: 991px) {
+
+    #header {
+        text-align: center;
+    }
     
     .header-image {
         position: static;
