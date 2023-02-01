@@ -168,6 +168,19 @@ p {
 /* MEDIA QUERIES */
 @media (max-width: 991px) {
 
+    .big-heading {
+        font-size: 3rem;
+    }
+    
+    .section-heading,
+    .cta-heading {
+        font-size: 2.5rem;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+    }
+
     #header {
         text-align: center;
     }
